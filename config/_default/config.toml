@@ -16,3 +16,8 @@ disqusShortname = "hugo-theme-stack"
 
 [pagination]
 pagerSize = 5
+
+[imaging]
+quality = 95
+resampleFilter = "Lanczos"
+anchor = "Smart"
