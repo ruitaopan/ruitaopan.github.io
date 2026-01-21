@@ -1,3 +1,5 @@
+timeout = "20m"
+
 # Change baseurl before deploy
 baseurl = "https://demo.stack.jimmycai.com"
 languageCode = "en-us"
