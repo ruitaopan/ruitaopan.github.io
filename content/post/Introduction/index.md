@@ -1,6 +1,7 @@
 ---
 title: Introduction
 description: Welcome to my homepage!
+homeFullContent: true
 date: 2026-01-01
 image: cover.jpg
 weight: 1
