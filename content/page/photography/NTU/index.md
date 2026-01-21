@@ -1,7 +1,7 @@
 ---
 title: Northwestern Polytechnical University (NPU)
 date: 2024-08-02
-description: Visit NPU while attending an academic conference. The Chang'an campus of  is located at the foot of the Qinling Mountains, with fresh air and lush greenery.
+description: Visit NPU while attending an academic conference. The Chang'an campus is located at the foot of the Qinling Mountains, with fresh air and lush greenery.
 image: cover.jpg
 tags: 
     - Campus

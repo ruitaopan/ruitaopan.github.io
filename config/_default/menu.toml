@@ -11,6 +11,7 @@
 identifier = "github"
 name = "GitHub"
 url = "https://github.com/ruitaopan"
+weight = 1
 
 [social.params]
 icon = "brand-github"
@@ -19,6 +20,7 @@ icon = "brand-github"
 identifier = "email"
 name = "Email"
 url = "mailto:ruitaopan05@foxmail.com"
+weight = 2
 
 [social.params]
 icon = "mail"
@@ -27,6 +29,7 @@ icon = "mail"
 identifier = "rss"
 name = "RSS"
 url = "/index.xml"
+weight = 3
 
 [social.params]
 icon = "rss"
