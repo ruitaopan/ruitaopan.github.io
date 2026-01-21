@@ -5,18 +5,19 @@ description: Visit NPU while attending an academic conference. The Chang'an camp
 image: cover.jpg
 tags: 
     - Campus
-weight: 1
+weight: 2
 ---
+
 ![Image 1](cover.jpg)
 
-![Image 2](1.jpg)
+![Image 2](01.jpg)
 
-![Image 3](2.jpg)
+![Image 3](02.jpg)
 
-![Image 4](3.jpg)
+![Image 4](03.jpg)
 
-![Image 5](4.jpg)
+![Image 5](04.jpg)
 
-![Image 6](5.jpg)
+![Image 6](05.jpg)
 
-![Image 7](6.jpg)
+![Image 7](06.jpg)
