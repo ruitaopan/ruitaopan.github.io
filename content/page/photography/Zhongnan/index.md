@@ -5,7 +5,7 @@ description: The climb was difficult, but the view from the summit was a reward,
 image: cover.jpg
 tags: 
     - Mountain
-weight: 4
+weight: 2
 ---
 
 ![](01.jpg) ![](02.jpg)
