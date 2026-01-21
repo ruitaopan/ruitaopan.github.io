@@ -8,10 +8,10 @@ tags:
 weight: 1
 ---
 
-{{< figure src="01.jpg" class="gallery-70" >}}
+![](01.jpg) ![](02.jpg)
 
-![Image 2](02.jpg) ![Image 3](03.jpg)
+![](03.jpg) ![](04.jpg)
 
-![Image 4](04.jpg) ![Image 5](05.jpg)
+![](05.jpg) ![](06.jpg)
 
-![Image 6](06.jpg) ![Image 7](06.jpg)
+<img src="07.jpg" style="width:50%;display:block;margin:auto;">

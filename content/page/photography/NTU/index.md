@@ -10,10 +10,8 @@ weight: 2
 
 ![](01.jpg) ![](02.jpg)
 
-{{< figure src="03.jpg" class="gallery-70" >}}
+![](03.jpg) ![](04.jpg)
 
-![](04.jpg) ![](05.jpg)
+![](05.jpg) ![](06.jpg)
 
-{{< figure src="06.jpg" class="gallery-70" >}}
-
-{{< figure src="07.jpg" class="gallery-70" >}}
+<img src="07.jpg" style="width:50%;display:block;margin:auto;">

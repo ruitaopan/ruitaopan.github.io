@@ -8,21 +8,17 @@ tags:
 weight: 3
 ---
 
-{{< figure src="01.jpg" class="gallery-70" >}}
+![](01.jpg) ![](02.jpg)
 
-![](02.jpg) ![](03.jpg)
+![](03.jpg) ![](04.jpg)
 
-![](04.jpg) ![](05.jpg)
-
-{{< figure src="06.jpg" class="gallery-70" >}}
+![](05.jpg) ![](06.jpg)
 
 ![](07.jpg)
 
 ![](08.jpg)
 
-{{< figure src="09.jpg" class="gallery-70" >}}
-
-{{< figure src="10.jpg" class="gallery-70" >}}
+![](09.jpg) ![](10.jpg)
 
 ![](11.jpg) ![](12.jpg)
 
@@ -30,4 +26,4 @@ weight: 3
 
 ![](15.jpg) ![](16.jpg)
 
-{{< figure src="17.jpg" class="gallery-70" >}}
+<img src="17.jpg" style="width:50%;display:block;margin:auto;">
