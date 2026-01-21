@@ -3,7 +3,7 @@ title: "Lifeshots"
 menu:
   main:
     name: Lifeshots
-    weight: 2
+    weight: 3
     params:
       icon: life
 ---
