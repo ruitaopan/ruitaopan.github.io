@@ -1,5 +1,5 @@
 ---
-title: Northwestern Polytechnical University (NPU), China
+title: Northwestern Polytechnical University, China
 date: 2024-08-02
 description: Visit NPU while attending an academic conference. The Chang'an campus is located at the foot of the Qinling Mountains, with fresh air and lush greenery.
 image: cover.jpg
@@ -8,16 +8,12 @@ tags:
 weight: 2
 ---
 
-![Image 1](01.jpg)
+![](01.jpg) ![](02.jpg)
 
-![Image 2](02.jpg)
+{{< figure src="03.jpg" class="gallery-70" >}}
 
-![Image 3](03.jpg)
+![](04.jpg) ![](05.jpg)
 
-![Image 4](04.jpg)
+{{< figure src="06.jpg" class="gallery-70" >}}
 
-![Image 5](05.jpg)
-
-![Image 6](06.jpg)
-
-![Image 7](07.jpg)
+{{< figure src="07.jpg" class="gallery-70" >}}

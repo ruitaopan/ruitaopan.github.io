@@ -5,17 +5,29 @@ description: Summer vocation in Japan. What an unforgettable experience!
 image: cover.jpg
 tags: 
     - City walk
-weight: 1
+weight: 3
 ---
 
-![Image 1](01.jpg)
+{{< figure src="01.jpg" class="gallery-70" >}}
 
-![Image 2](02.jpg)
+![](02.jpg) ![](03.jpg)
 
-![Image 3](03.jpg)
+![](04.jpg) ![](05.jpg)
 
-![Image 4](04.jpg)
+{{< figure src="06.jpg" class="gallery-70" >}}
 
-![Image 5](05.jpg)
+![](07.jpg)
 
-![Image 6](06.jpg)
+![](08.jpg)
+
+{{< figure src="09.jpg" class="gallery-70" >}}
+
+{{< figure src="10.jpg" class="gallery-70" >}}
+
+![](11.jpg) ![](12.jpg)
+
+![](13.jpg) ![](14.jpg)
+
+![](15.jpg) ![](16.jpg)
+
+{{< figure src="17.jpg" class="gallery-70" >}}
