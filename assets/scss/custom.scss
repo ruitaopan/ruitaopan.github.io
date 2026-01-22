@@ -1,9 +1,15 @@
-.page-content a {
-  color: #1a73e8;
-  text-decoration: none;
+.main-article .article-content a,
+.article-content a,
+.page .article-content a,
+.content a {
+  color: #1a73e8 !important;
+  text-decoration: none !important;
 }
 
-.page-content a:hover {
-  color: #174ea6;
-  text-decoration: underline;
+.main-article .article-content a:hover,
+.article-content a:hover,
+.page .article-content a:hover,
+.content a:hover {
+  color: #174ea6 !important;
+  text-decoration: underline !important;
 }
