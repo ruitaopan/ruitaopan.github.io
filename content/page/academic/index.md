@@ -1,10 +1,11 @@
 ---
 title: "Academic"
+date: 2026-01-01
 layout: "page"
 menu:
     main:
         name: Academic
-        weight: 1
+        weight: 2
         params:
             icon: academic
 ---

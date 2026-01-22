@@ -3,7 +3,7 @@ title: "Photography"
 menu:
   main:
     name: Photography
-    weight: 2
+    weight: 3
     params:
       icon: photo
 ---

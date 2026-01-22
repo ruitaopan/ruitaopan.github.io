@@ -8,7 +8,7 @@ weight: 1
 comments: true
 ---
 
-I am a Ph.D. student at Xi'an Jiaotong University, Shaanxi, China. My research interests include event-based (or bio-inspired) vision, deep learning, object detection, and pose estimation.
+I am a Ph.D. student at Xi'an Jiaotong University, Shaanxi, China. My research interests include event-based (bio-inspired) vision, deep learning, object detection, and pose estimation.
 
 I value work–life balance, and this website mainly serves as a record of my daily life. From time to time, I will share my photographic works and lifeshots here.
 
