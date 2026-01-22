@@ -13,22 +13,22 @@ comments: true
 
 **Date**: 2025-06<br>
 **Description**: The seconde performing on stage. More comfortable and mature.
-{{< bilibili "BV141zHBzEBx" 0 >}}
+{{< bilibili "BV141zHBzEBx" >}}
 
 ---
 
 **Date**: 2025-04<br>
 **Description**: Band rehearsal record; the song is called "All the Way North".
-{{< bilibili "BV1JyrBYQEAt" 0 >}}
+{{< bilibili "BV1JyrBYQEAt" >}}
 
 ---
 
 **Date**: 2025-01<br>
 **Description**: Band rehearsal record; the song is called "Last Blossom".
-{{< bilibili "BV1xDT9zYEQw" 0 >}} 
+{{< bilibili "BV1xDT9zYEQw" >}} 
 
 ---
 
 **Date**: 2024-06<br>
 **Description**: The first performing on stage. Nice job with my band members.
-{{< bilibili "BV14mzHBMEPe" 0 >}}
+{{< bilibili "BV14mzHBMEPe" >}}
