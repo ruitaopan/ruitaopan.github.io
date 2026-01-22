@@ -4,8 +4,9 @@ date: 2024-07-26
 description: I was on a business trip to the China Academy of Space Technology (CAST) and took the opportunity to visit Beijing, the capital of China.
 image: cover.jpg
 tags: 
-    - City walk
+    - City Walk
 weight: 5
+comments: true
 ---
 
 ![](01.jpg) ![](02.jpg)

@@ -4,8 +4,9 @@ date: 2025-01-20
 description: Going hometown for the Chinese Spring Festival, recording the wonderful moments.
 image: cover.jpg
 tags:
-    - City walk
+    - City Walk
 weight: 1
+comments: true
 ---
 
 ![](01.jpg) ![](02.jpg) ![](03.jpg) 

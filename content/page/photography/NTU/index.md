@@ -6,6 +6,7 @@ image: cover.jpg
 tags: 
     - Campus
 weight: 4
+comments: true
 ---
 
 ![](01.jpg) ![](02.jpg)

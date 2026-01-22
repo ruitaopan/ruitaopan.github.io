@@ -4,8 +4,9 @@ date: 2024-08-10
 description: Summer vocation in Japan. What an unforgettable experience!
 image: cover.jpg
 tags: 
-    - City walk
+    - City Walk
 weight: 3
+comments: true
 ---
 
 ![](01.jpg) ![](02.jpg)
