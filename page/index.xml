@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on Ruitao Pan</title><link>https://demo.stack.jimmycai.com/page/</link><description>Recent content in Pages on Ruitao Pan</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/page/index.xml" rel="self" type="application/rss+xml"/><item><title>Academic</title><link>https://demo.stack.jimmycai.com/academic/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/academic/</guid><description>&lt;h2 id="education"&gt;Education
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Xi’an Jiaotong University&lt;/strong&gt;, Xi’an, Shaanxi, China&lt;br&gt;
+School of Future Technology&lt;br&gt;
+Ph.D. Student in Control Science and Engineering&lt;br&gt;
+Advisor: Prof. Zhi Zhai&lt;br&gt;
+2022 – Present&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shantou University&lt;/strong&gt;, Shantou, Guangdong, China&lt;br&gt;
+Department of Mechanical Engineering&lt;br&gt;
+B.Eng. in Intelligent Manufacturing Engineering&lt;br&gt;
+2018 – 2022&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="research-areas"&gt;Research Areas
+&lt;/h2&gt;&lt;p&gt;Event-based (bio-inspired) vision, deep learning, object detection, pose estimation&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="publications"&gt;Publications
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Ruitao Pan&lt;/strong&gt;, Chenxi Wang*, Bin Han, Xinyu Zhang, Zhi Zhai, Jinxin Liu, Naijin Liu, Xuefeng Chen, &amp;ldquo;M²Former: Enhancing RT-DETR for Event-Based Space Object Detection,&amp;rdquo; &lt;em&gt;IEEE Transactions on Geoscience and Remote Sensing (TGRS)&lt;/em&gt;, 2025. &lt;a class="link" href="https://iamie-vision.github.io/M2Former/" target="_blank" rel="noopener"
+&gt;[Project]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Bin Han, &lt;strong&gt;Ruitao Pan&lt;/strong&gt;, Xinyu Zhang, Chenxi Wang, Zhi Zhai, Zhibin Zhao*, Xuefeng Chen, &amp;ldquo;Learning Upright and Forward-Facing Object Poses using
+Category-level Canonical Representations,&amp;rdquo; in &lt;em&gt;IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)&lt;/em&gt;, 2025. &lt;a class="link" href="https://iamie-vision.github.io/upright-forward-facing/" target="_blank" rel="noopener"
+&gt;[Project]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ruitao Pan&lt;/strong&gt;, Chenxi Wang*, Zhi Zhai, Jinxin Liu, Tianhang Pan, Xuefeng Chen, &amp;ldquo;Monocular SLAM with Point and Line Features Applied to Spacecraft Relative Navigation,&amp;rdquo; &lt;em&gt;International Journal of Aeronautical and Space Sciences&lt;/em&gt;, 2025. &lt;a class="link" href="https://doi.org/10.1007/s42405-024-00817-2" target="_blank" rel="noopener"
+&gt;[PDF]&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="datasets"&gt;Datasets
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;E-SPARK&lt;/strong&gt;: Event-based SPARK2021 Dataset for Space Object Detection &lt;a class="link" href="https://zenodo.org/records/15770179" target="_blank" rel="noopener"
+&gt;[Dataset]&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
