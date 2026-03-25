@@ -33,9 +33,9 @@ Event-based (bio-inspired) vision, deep learning, object detection, pose estimat
 
 ## Projects
 
-1. Pose Estimation Methods for Non-Cooperative Spacecraft toward Space Situation Awareness, Beijing Institute of Control Engineering, China Academy of Space Technology, 2023-2024. [[PDF]](https://drive.google.com/file/d/17K0gHtMCIBSlaq6VmGC4WiUlubCpjoN6/view?usp=drive_link)
+Pose Estimation Methods for Non-Cooperative Spacecraft toward Space Situation Awareness, Beijing Institute of Control Engineering, China Academy of Space Technology, 2023-2024. [[PDF]](https://drive.google.com/file/d/17K0gHtMCIBSlaq6VmGC4WiUlubCpjoN6/view?usp=drive_link)
 
-2. A Wafer Defect Detection Method Based on Hard Example Mining for IC Manufacturing, Undergraduate Thesis Defense, Shantou University, 2022. [[PDF]](https://drive.google.com/file/d/1vxfb-jI3l4Q2-iIgvGxYXZJY8Mjqx4IU/view?usp=sharing)
+A Wafer Defect Detection Method Based on Hard Example Mining for IC Manufacturing, Undergraduate Thesis Defense, Shantou University, 2022. [[PDF]](https://drive.google.com/file/d/1vxfb-jI3l4Q2-iIgvGxYXZJY8Mjqx4IU/view?usp=sharing)
 
 ---
 
