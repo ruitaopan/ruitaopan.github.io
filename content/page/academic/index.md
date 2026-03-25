@@ -31,12 +31,19 @@ Event-based (bio-inspired) vision, deep learning, object detection, pose estimat
 
 ---
 
+## Projects
+
+1. Pose Estimation Methods for Non-Cooperative Spacecraft toward Space Situation Awareness, Beijing Institute of Control Engineering, China Academy of Space Technology, 2023-2024. [[PDF]](https://drive.google.com/file/d/17K0gHtMCIBSlaq6VmGC4WiUlubCpjoN6/view?usp=drive_link)
+
+2. A Wafer Defect Detection Method Based on Hard Example Mining for IC Manufacturing, Undergraduate Thesis Defense, Shantou University, 2022. [[PDF]](https://drive.google.com/file/d/1vxfb-jI3l4Q2-iIgvGxYXZJY8Mjqx4IU/view?usp=sharing)
+
+---
+
 ## Publications
 
 **Ruitao Pan**, Chenxi Wang*, Bin Han, Xinyu Zhang, Zhi Zhai, Jinxin Liu, Naijin Liu, Xuefeng Chen, "M²Former: Enhancing RT-DETR for Event-Based Space Object Detection," *IEEE Transactions on Geoscience and Remote Sensing (TGRS)*, 2025. [[Project]](https://iamie-vision.github.io/M2Former/)
 
-Bin Han, **Ruitao Pan**, Xinyu Zhang, Chenxi Wang, Zhi Zhai, Zhibin Zhao*, Xuefeng Chen, "Learning Upright and Forward-Facing Object Poses using
-Category-level Canonical Representations," in *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2025. [[Project]](https://iamie-vision.github.io/upright-forward-facing/)
+Bin Han, **Ruitao Pan**, Xinyu Zhang, Chenxi Wang, Zhi Zhai, Zhibin Zhao*, Xuefeng Chen, "Learning Upright and Forward-Facing Object Poses using Category-level Canonical Representations," in *IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)*, 2025. [[Project]](https://iamie-vision.github.io/upright-forward-facing/)
 
 **Ruitao Pan**, Chenxi Wang*, Zhi Zhai, Jinxin Liu, Tianhang Pan, Xuefeng Chen, "Monocular SLAM with Point and Line Features Applied to Spacecraft Relative Navigation," *International Journal of Aeronautical and Space Sciences*, 2025. [[PDF]](https://doi.org/10.1007/s42405-024-00817-2).
 
