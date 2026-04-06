@@ -21,7 +21,7 @@ comments: true
 ---
 
 **Date:2025-12-28**<br>
-**Description**: New Year's Concert.
+**Description**: New Year's Choir Concert.
 
 ![](04-1.jpg) ![](04-2.jpg)
 
@@ -32,7 +32,7 @@ comments: true
 ---
 
 **Date:2025-10-22**<br>
-**Description**: Chang'an Le Music Hall Concert.
+**Description**: Chang'an Le Music Hall Choir Concert.
 
 ![](03-1.jpg) ![](03-2.jpg)
 
@@ -43,7 +43,7 @@ comments: true
 ---
 
 **Date:2025-5-25**<br>
-**Description**: "So Love You" Concert.
+**Description**: "So Love You" Choir Concert.
 
 ![](02-1.jpg) ![](02-2.jpg)
 
@@ -54,6 +54,6 @@ comments: true
 ---
 
 **Date:2024-12-07**<br>
-**Description**: New Year's Concert. The choir's first performance after formation.
+**Description**: New Year's Choir Concert. The choir's first performance after formation.
 
 ![](01.jpg)
