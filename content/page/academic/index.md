@@ -27,7 +27,7 @@ B.Eng. in Intelligent Manufacturing Engineering<br>
 
 ## Research Areas
 
-Event-based (bio-inspired) vision, deep learning, object detection, pose estimation
+Space situational awareness (object detection & pose estimation), autonomous aircraft (low-altitude economy), multimodal large models.
 
 ---
 
