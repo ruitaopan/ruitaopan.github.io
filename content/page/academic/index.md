@@ -27,7 +27,7 @@ B.Eng. in Intelligent Manufacturing Engineering<br>
 
 ## Research Areas
 
-Space situational awareness (object detection & pose estimation), autonomous aircraft (low-altitude economy), multimodal large models.
+Space situational awareness (object detection & pose estimation), neuromorphic (event-based) vision.
 
 ---
 
