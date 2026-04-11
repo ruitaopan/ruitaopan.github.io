@@ -79,10 +79,14 @@ The basic tool in the reconstruction of point sets from two views is the fundame
 $$
 \mathbf{x}_{i}^{\prime}\mathrm{F}\mathbf{x}_i=0,
 $$
-where $\mathrm{F}$ is a $3\times 3$ matrix of rank 2. A pair of camera matrices $\mathrm{P}$ and $\mathrm{P}^{\prime}$ uniquely determine a fundamental matrix $\mathrm{F}$, and vice verse, up to a 3D projective ambiguity. Thus, the fundamental matrix encapsulates the complete projective geometry of the pair of cameras, and is unchanged by projective transformation of 3D. The fundamental-matrix method for reconstructing the scene is very simple, consisting of the following steps:\\
-(i) Given several point correspondences $\mathbf{x}_i\leftrightarrow \mathbf{x}_{i}^{\prime}$ across two views, form linear equations in the entries of $\mathrm{F}$ based on $\mathbf{x}_{i}^{\prime}\mathrm{F}\mathbf{x}_i=0$.\\
-(ii) Find $\mathrm{F}$ as the solution to a set of linear equations.\\
-(iii) Compute a pair of camera matrices from $\mathrm{F}$.\\
+where $\mathrm{F}$ is a $3\times 3$ matrix of rank 2. A pair of camera matrices $\mathrm{P}$ and $\mathrm{P}^{\prime}$ uniquely determine a fundamental matrix $\mathrm{F}$, and vice verse, up to a 3D projective ambiguity. Thus, the fundamental matrix encapsulates the complete projective geometry of the pair of cameras, and is unchanged by projective transformation of 3D. The fundamental-matrix method for reconstructing the scene is very simple, consisting of the following steps:
+
+(i) Given several point correspondences $\mathbf{x}_i\leftrightarrow \mathbf{x}_{i}^{\prime}$ across two views, form linear equations in the entries of $\mathrm{F}$ based on $\mathbf{x}_{i}^{\prime}\mathrm{F}\mathbf{x}_i=0$.
+
+(ii) Find $\mathrm{F}$ as the solution to a set of linear equations.
+
+(iii) Compute a pair of camera matrices from $\mathrm{F}$.
+
 (iv) Given the two camera matrices and the corresponding image point pairs, find the 3D point that projects to the given image points, which is called triangulation.
 
 ## 1.4 Three-view geometry
@@ -97,9 +101,12 @@ The 27 elements of the tensor are not independent, however, but are related by a
 This method is seldom used because of the relative difficulty of computing a quadrifocal tensor that obey its internal constraints. Nevertheless, it does provide a non-iterative method for computing a projective reconstruction based on four views. The tensor method does not extend to more than four views, however, and so reconstruction from more than four views becomes more difficult.
 
 ## 1.6 Transfer
-Another useful application of projective geometry is that of transfer: given the position of a point in one (or more) image(s), determine where it will appear in all other images of the set. This may be computed by the following steps:\\
-(i) Compute the camera matrices of the three views $\mathrm{P},\mathrm{P}^{\prime},\mathrm{P}^{''}$ from other point correspondences $\mathbf{x}\leftrightarrow \mathbf{x}_{i}^{\prime}\leftrightarrow \mathbf{x}_{i}^{''}$.\\
-(ii) Triangulate the 3D point $\mathbf{X}$ from $\mathbf{x}$ and $\mathbf{x}^{\prime}$ using $\mathrm{P}$ and $\mathrm{P}^{\prime}$.\\
+Another useful application of projective geometry is that of transfer: given the position of a point in one (or more) image(s), determine where it will appear in all other images of the set. This may be computed by the following steps:
+
+(i) Compute the camera matrices of the three views $\mathrm{P},\mathrm{P}^{\prime},\mathrm{P}^{''}$ from other point correspondences $\mathbf{x}\leftrightarrow \mathbf{x}_{i}^{\prime}\leftrightarrow \mathbf{x}_{i}^{''}$.
+
+(ii) Triangulate the 3D point $\mathbf{X}$ from $\mathbf{x}$ and $\mathbf{x}^{\prime}$ using $\mathrm{P}$ and $\mathrm{P}^{\prime}$.
+
 (iii) Project the 3D point into the third view as $\mathbf{x}^{''}=\mathrm{P}^{''}\mathbf{X}$.
 
 An alternative procedure is to use the multi-view tensors (the fundamental matrix and trifocal tensor) to transfer the point directly without an explicit 3D reconstruction.
