@@ -3,10 +3,10 @@ title: 'Multiple View Geometry (Chapter 1): Introduction'
 description: 'Notes on "Multiple View Geometry in Computer Vision" by Richard Hartley and Andrew Zisserman'
 homeFullContent: true
 date: 2026-04-11
+math: true
 image: cover.jpg
 weight: 2
 comments: true
-math: true
 ---
 ## 1.1 The ubiquitous projective geometry
 **Coordinate.** The triple $(x,y,1)$, called homogeneous coordinate, represents the same point as the pair $(x,y)$. Futhermore, $(kx,ky,k)$ represents the same point as well, for any non-zero value $k$. For the triple $(x,y,0)$, if we divide the last coordinate, we get the infinite point $(x/0, y/0)$. Therefore, infinite points are represented by *homogeneous coordinates* in which the last coordinate is zero. Projective space  $\mathbb{P}^n$ is an extension of Euclidean space $\mathbb{R}^n$ by representing points as homogeneous vectors, where two lines (also with parallel) always meet in a point, containing those points at infinity, called “ideal points”. Points at infinity in the two-dimensional projective space form the *line at infinity*, and in three-dimensional space they form the *plane at infinity*.
@@ -60,10 +60,12 @@ $$
 $$
 
 **Cameras as points.** The set of all image points (image space $\mathbb{P} ^2$) can be represented by the set of rays through the camera center. Two images taken from the same point in space are projectively equivalent.
+![](fig1.1.png)
 
 **Calibrated cameras.** The absolute conic in the plane at infinity must project to a conic in the image. The resulting image curve is called the Image of the Absolute Conic, or IAC, defined as $\omega$. If the location of the IAC is known in an image, then we say that the camera is calibrated.
 
 **Example 1.1. 3D reconstructions from paintings.** It is possible in many instances to reconstruct scenes from a single image. Typical techniques involve the analysis of features such as parallel lines and vanishing points to determine the affine structure of the scene.
+![](fig1.2.png)
 
 ## 1.3 Reconstruction from two views
 Unless something is known about the calibration of the cameras, the ambiguity in the reconstruction is expressed by projective transformations. This ambiguity arises because it is possible to apply a projective transformation (represented by a $4\times 4$ matrix $\mathrm{H}$) to each point $\mathbf{X}_i$, and each camera matrix $\mathrm{P}_j$:
@@ -104,6 +106,7 @@ An alternative procedure is to use the multi-view tensors (the fundamental matri
 
 ## 1.7 Euclidean reconstruction
 So far we have considered the reconstruction of a scene, or transfer, for images taken with a set of uncalibrated cameras. In order to obtain a reconstruction of the model in which objects have their correct (Euclidean) shape, it is necessary to determine the calibration of the cameras. Determining the Euclidean structure of the world is equivalent to specifying the plane at infinity and the absolute conic.
+![](fig1.4.png)
 
 By definition, the IAC is known in each of the images. The back-projection of each $\omega_i$ is a cone in space, and the absolute conic must lie in the intersection of all the cones. Two cones in general intersect in a fourth-degree curve, but given that they must intersect in a conic, this curve must split into two conics. Thus, reconstruction of the absolute conic from two images is not unique – there are two possible solutions in general. However, from three or more images, the intersection of the cones is unique in general. Thus the absolute conic is determined and with it the Euclidean structure of the scene.
 
