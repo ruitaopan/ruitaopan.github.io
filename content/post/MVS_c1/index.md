@@ -6,6 +6,7 @@ date: 2026-04-11
 image: cover.jpg
 weight: 2
 comments: true
+math: true
 ---
 ## 1.1 The ubiquitous projective geometry
 **Coordinate.** The triple $(x,y,1)$, called homogeneous coordinate, represents the same point as the pair $(x,y)$. Futhermore, $(kx,ky,k)$ represents the same point as well, for any non-zero value $k$. For the triple $(x,y,0)$, if we divide the last coordinate, we get the infinite point $(x/0, y/0)$. Therefore, infinite points are represented by *homogeneous coordinates* in which the last coordinate is zero. Projective space  $\mathbb{P}^n$ is an extension of Euclidean space $\mathbb{R}^n$ by representing points as homogeneous vectors, where two lines (also with parallel) always meet in a point, containing those points at infinity, called “ideal points”. Points at infinity in the two-dimensional projective space form the *line at infinity*, and in three-dimensional space they form the *plane at infinity*.
