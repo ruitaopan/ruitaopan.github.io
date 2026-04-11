@@ -1,6 +1,6 @@
 ---
-title: Multiple View Geometry (Chapter 1): Introduction
-description: Notes on "Multiple View Geometry in Computer Vision" by Richard Hartley and Andrew Zisserman
+title: 'Multiple View Geometry (Chapter 1): Introduction'
+description: 'Notes on "Multiple View Geometry in Computer Vision" by Richard Hartley and Andrew Zisserman'
 homeFullContent: true
 date: 2026-04-11
 image: cover.jpg
