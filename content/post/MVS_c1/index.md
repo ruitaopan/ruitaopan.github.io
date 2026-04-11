@@ -81,18 +81,15 @@ $$
 $$
 where $\mathrm{F}$ is a $3\times 3$ matrix of rank 2. A pair of camera matrices $\mathrm{P}$ and $\mathrm{P}^{\prime}$ uniquely determine a fundamental matrix $\mathrm{F}$, and vice verse, up to a 3D projective ambiguity. Thus, the fundamental matrix encapsulates the complete projective geometry of the pair of cameras, and is unchanged by projective transformation of 3D. The fundamental-matrix method for reconstructing the scene is very simple, consisting of the following steps:
 
-1. Given several point correspondences $\mathbf{x}_i  \mathbf{x}_{i}^{\prime}$ across two views, form linear equations in the entries of $\mathrm{F}$ based on $\mathbf{x}_{i}^{\prime}\mathrm{F}\mathbf{x}_i=0$.
-
+1. Given several point correspondences $\mathbf{x}_i \leftrightarrow \mathbf{x}_{i}^{\prime}$ across two views, form linear equations in the entries of $\mathrm{F}$ based on $\mathbf{x}_{i}^{\prime}\mathrm{F}\mathbf{x}_i=0$.
 2. Find $\mathrm{F}$ as the solution to a set of linear equations.
-
 3. Compute a pair of camera matrices from $\mathrm{F}$.
-
 4. Given the two camera matrices and the corresponding image point pairs, find the 3D point that projects to the given image points, which is called *triangulation*.
 
 ## 1.4 Three-view geometry
-Whereas for two views, the basic algebraic entity is the fundamental matrix, for three views this role is played by the trifocal tensor $\mathcal{T}$, which is a $3\times 3\times 3$ array of numbers. The trifocal tensor is determined by the three camera matrices, and vice verse, up to a 3D projective ambiguity. We consider a correspondence $\mathbf{x} \leftrightarrow \mathbf{l}^{\prime} \leftrightarrow \mathbf{l}^{''}$ between a point $\mathbf{x}$ in one image and two lines $\mathbf{l}^{\prime}$ and $\mathbf{l}^{''}$ in the other two images. They are related by the trifocal tensor relationship:
+Whereas for two views, the basic algebraic entity is the fundamental matrix, for three views this role is played by the trifocal tensor $\mathcal{T}$, which is a $3\times 3\times 3$ array of numbers. The trifocal tensor is determined by the three camera matrices, and vice verse, up to a 3D projective ambiguity. We consider a correspondence $\mathbf{x} \leftrightarrow \mathbf{l}^{\prime} \leftrightarrow \mathbf{l}^{\prime\prime}$ between a point $\mathbf{x}$ in one image and two lines $\mathbf{l}^{\prime}$ and $\mathbf{l}^{\prime\prime}$ in the other two images. They are related by the trifocal tensor relationship:
 $$
-\sum_{ijk}{x^il_{j}^{\prime}l_{k}^{''}\mathcal{T} _{i}^{jk}}=0.
+\sum_{ijk}{x^il_{j}^{\prime}l_{k}^{\prime\prime}\mathcal{T} _{i}^{jk}}=0.
 $$
 
 The 27 elements of the tensor are not independent, however, but are related by a set of so called internal constraints. These constraints are quite complicated, but tensors satisfying the constraints can be computed in various ways. The fundamental matrix also satisfies an internal constraint but a relatively simple one: the elements obey $\det  \mathrm{F}=0$.
@@ -103,11 +100,9 @@ This method is seldom used because of the relative difficulty of computing a qua
 ## 1.6 Transfer
 Another useful application of projective geometry is that of transfer: given the position of a point in one (or more) image(s), determine where it will appear in all other images of the set. This may be computed by the following steps:
 
-1. Compute the camera matrices of the three views $\mathrm{P},\mathrm{P}^{\prime},\mathrm{P}^{''}$ from other point correspondences $\mathbf{x} \leftrightarrow \mathbf{x}_{i}^{\prime} \leftrightarrow \mathbf{x}_{i}^{''}$.
-
+1. Compute the camera matrices of the three views $\mathrm{P},\mathrm{P}^{\prime},\mathrm{P}^{\prime\prime}$ from other point correspondences $\mathbf{x}\leftrightarrow \mathbf{x}_{i}^{\prime}\leftrightarrow \mathbf{x}_{i}^{\prime\prime}$.
 2. Triangulate the 3D point $\mathbf{X}$ from $\mathbf{x}$ and $\mathbf{x}^{\prime}$ using $\mathrm{P}$ and $\mathrm{P}^{\prime}$.
-
-3. Project the 3D point into the third view as $\mathbf{x}^{''}=\mathrm{P}^{''}\mathbf{X}$.
+3. Project the 3D point into the third view as $\mathbf{x}^{\prime\prime}=\mathrm{P}^{\prime\prime}\mathbf{X}$.
 
 An alternative procedure is to use the multi-view tensors (the fundamental matrix and trifocal tensor) to transfer the point directly without an explicit 3D reconstruction.
 
