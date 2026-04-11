@@ -23,7 +23,7 @@ src = "img/profile.jpg"
 
 [article]
 headingAnchor = false
-math = false
+math = true
 readingTime = true
 
 [article.license]
