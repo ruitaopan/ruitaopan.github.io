@@ -77,13 +77,13 @@ $$
 
 The choice of $\mathrm{H}$ is essentially arbitrary, and we say that the reconstruction has a projective ambiguity, or is a *projective reconstruction*.
 
-The basic tool in the reconstruction of point sets from two views is the fundamental matrix $\mathrm{F}$. A pair of matching points from two images of the same 3D point $\mathbf{x}_i \leftrightarrow \mathbf{x}_i\prime$ must satisfy
+The basic tool in the reconstruction of point sets from two views is the fundamental matrix $\mathrm{F}$. A pair of matching points from two images of the same 3D point $\mathbf{x}_i \leftrightarrow \mathbf{x}_i^\prime$ must satisfy
 $$
-\mathbf{x}_i\prime^{\top}\mathrm{F}\mathbf{x}_i=0,
+\mathbf{x}_i^{\prime\top}\mathrm{F}\mathbf{x}_i=0,
 $$
 where $\mathrm{F}$ is a $3\times 3$ matrix of rank 2. A pair of camera matrices $\mathrm{P}$ and $\mathrm{P}^{\prime}$ uniquely determine a fundamental matrix $\mathrm{F}$, and vice verse, up to a 3D projective ambiguity. Thus, the fundamental matrix encapsulates the complete projective geometry of the pair of cameras, and is unchanged by projective transformation of 3D. The fundamental-matrix method for reconstructing the scene is very simple, consisting of the following steps:
 
-1. Given several point correspondences $\mathbf{x}_i \leftrightarrow \mathbf{x}_i\prime$ across two views, form linear equations in the entries of $\mathrm{F}$ based on $\mathbf{x}_i\prime^{\top}\mathrm{F}\mathbf{x}_i=0$.
+1. Given several point correspondences $\mathbf{x}_i \leftrightarrow \mathbf{x}_i^\prime$ across two views, form linear equations in the entries of $\mathrm{F}$ based on $\mathbf{x}_i^{\prime\top}\mathrm{F}\mathbf{x}_i=0$.
 2. Find $\mathrm{F}$ as the solution to a set of linear equations.
 3. Compute a pair of camera matrices from $\mathrm{F}$.
 4. Given the two camera matrices and the corresponding image point pairs, find the 3D point that projects to the given image points, which is called *triangulation*.
@@ -102,7 +102,7 @@ This method is seldom used because of the relative difficulty of computing a qua
 ## 1.6 Transfer
 Another useful application of projective geometry is that of transfer: given the position of a point in one (or more) image(s), determine where it will appear in all other images of the set. This may be computed by the following steps:
 
-1. Compute the camera matrices of the three views $\mathrm{P},\mathrm{P}^{\prime},\mathrm{P}^{\prime\prime}$ from other point correspondences $\mathbf{x} \leftrightarrow \mathbf{x}_i\prime \leftrightarrow \mathbf{x}_i\prime\prime$.
+1. Compute the camera matrices of the three views $\mathrm{P},\mathrm{P}^{\prime},\mathrm{P}^{\prime\prime}$ from other point correspondences $\mathbf{x} \leftrightarrow \mathbf{x}_i^\prime \leftrightarrow \mathbf{x}_i^{\prime\prime}$.
 2. Triangulate the 3D point $\mathbf{X}$ from $\mathbf{x}$ and $\mathbf{x}^{\prime}$ using $\mathrm{P}$ and $\mathrm{P}^{\prime}$.
 3. Project the 3D point into the third view as $\mathbf{x}^{\prime\prime}=\mathrm{P}^{\prime\prime}\mathbf{X}$.
 
