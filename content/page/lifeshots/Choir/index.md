@@ -9,7 +9,25 @@ weight: 1
 comments: true
 ---
 
-**Date:2026-04-02**<br>
+**Date: 2026-05-31**<br>
+**Description**: "Sing the mountains and rivers" Choir Concert.
+
+![](07-1.jpg) ![](07-2.jpg)
+
+![](07-3.jpg)
+
+---
+
+**Date: 2026-05-25**<br>
+**Description**: Xi'an Concert Hall Choir Concert.
+
+![](06-1.jpg)
+
+![](06-2.jpg)
+
+---
+
+**Date: 2026-04-02**<br>
 **Description**: Yale University-Xi'an Jiaotong University Choir Concert.
 
 ![](05-1.jpg)
@@ -18,7 +36,7 @@ comments: true
 
 ---
 
-**Date:2025-12-28**<br>
+**Date: 2025-12-28**<br>
 **Description**: New Year's Choir Concert.
 
 ![](04-1.jpg) ![](04-2.jpg)
@@ -29,7 +47,7 @@ comments: true
 
 ---
 
-**Date:2025-10-22**<br>
+**Date: 2025-10-22**<br>
 **Description**: Chang'an Le Music Hall Choir Concert.
 
 ![](03-1.jpg) ![](03-2.jpg)
@@ -40,7 +58,7 @@ comments: true
 
 ---
 
-**Date:2025-5-25**<br>
+**Date: 2025-5-25**<br>
 **Description**: "So Love You" Choir Concert.
 
 ![](02-1.jpg) ![](02-2.jpg)
@@ -51,7 +69,7 @@ comments: true
 
 ---
 
-**Date:2024-12-07**<br>
+**Date: 2024-12-07**<br>
 **Description**: New Year's Choir Concert. The choir's first performance after formation.
 
 ![](01.jpg)
