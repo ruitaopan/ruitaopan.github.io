@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Ruitao Pan</title><link>https://demo.stack.jimmycai.com/post/</link><description>Recent content in Posts on Ruitao Pan</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 11 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://demo.stack.jimmycai.com/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction</title><link>https://demo.stack.jimmycai.com/p/introduction/</link><pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/introduction/</guid><description>&lt;img src="https://demo.stack.jimmycai.com/p/introduction/cover.jpg" alt="Featured image of post Introduction" /&gt;&lt;p&gt;Nice to meet you! I am a Ph.D. student at Xi’an Jiaotong University, China.&lt;/p&gt;
+&lt;p&gt;This website serves as a platform to showcase my academic work and document my daily life. From time to time, I share my photography and lifeshots here. In the future, I also plan to publish blog posts on advanced technologies and related research topics. You are welcome to follow me via RSS.&lt;/p&gt;
+&lt;p&gt;For inquiries, collaborations, or academic discussions, please feel free to contact me via email.&lt;/p&gt;</description></item><item><title>Multiple View Geometry (Chapter 1): Introduction</title><link>https://demo.stack.jimmycai.com/p/multiple-view-geometry-chapter-1-introduction/</link><pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate><guid>https://demo.stack.jimmycai.com/p/multiple-view-geometry-chapter-1-introduction/</guid><description>&lt;img src="https://demo.stack.jimmycai.com/p/multiple-view-geometry-chapter-1-introduction/cover.jpg" alt="Featured image of post Multiple View Geometry (Chapter 1): Introduction" /&gt;&lt;h2 id="11-the-ubiquitous-projective-geometry"&gt;1.1 The ubiquitous projective geometry
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Coordinate.&lt;/strong&gt; The triple $(x,y,1)$, called homogeneous coordinate, represents the same point as the pair $(x,y)$. Futhermore, $(kx,ky,k)$ represents the same point as well, for any non-zero value $k$. For the triple $(x,y,0)$, if we divide the last coordinate, we get the infinite point $(x/0, y/0)$. Therefore, infinite points are represented by &lt;em&gt;homogeneous coordinates&lt;/em&gt; in which the last coordinate is zero. Projective space $\mathbb{P}^n$ is an extension of Euclidean space $\mathbb{R}^n$ by representing points as homogeneous vectors, where two lines (also with parallel) always meet in a point, containing those points at infinity, called “ideal points”. Points at infinity in the two-dimensional projective space form the &lt;em&gt;line at infinity&lt;/em&gt;, and in three-dimensional space they form the &lt;em&gt;plane at infinity&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Homogeneity.&lt;/strong&gt; In Euclidean space, the whole of the space is homogeneous. We can pick any point as the origin and translate and rotate it to a different position, which is known as a Euclidean transform. We can also stretch linearly by different ratios in different directions, which is known as an &lt;em&gt;affine&lt;/em&gt; transform. Both of the transforms, points at infinity remain at infinity. By analogy with Euclidean or affine transformations, we may define a &lt;em&gt;projective transformation&lt;/em&gt; of projective space
+&lt;/p&gt;
+$$
+\mathbf{X}^{\prime}=\mathrm{H}_{\left( n+1 \right) \times \left( n+1 \right)}\mathbf{X}.
+$$&lt;p&gt;A point is represented by homogeneous coordinate (an (n+1)-vector) and is multiplied by a non-singular matrix. Under such mapping, shapes, lengths, angles, distances, distance ratios are not preserved, except for straightness. What’s more, the points at infinity are not preserved neither. This go against the spirit of pure projective geometry, but makes it useful for practical problems. In other words, we treat all points in projective space as equals, but singling out the line and the plane at infinity in the 2D image and the 3D world when that becomes necessary.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Affine geometry.&lt;/strong&gt; In projective space, there is no concept of infinite points - all points are equal. When we pick out some particular line, and decide that is the line at infinity, parallel comes up if two lines meeting at the infinite line. We can also define equalities of intervals between two points on parallel lines. The geometry of the projective plane with a distinguished line is known as &lt;em&gt;affine geometry&lt;/em&gt;, and any projective transformation that maps the distinguished line in one space to the distinguished line of the other space is known as an &lt;em&gt;affine transformation&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Euclidean geometry.&lt;/strong&gt; A circle is not a concept of affine geometry, because arbitrary stretching of the plane turns the circle into an ellipse. In Euclidean however, they are distinct. Two ellipses will most generally intersect in four points. For two circles, they intersect in two real points and two other &lt;em&gt;complex&lt;/em&gt; points, called &lt;em&gt;circular points&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The equation for a circle in homogeneous coordinates $(x,y,w)$ is of the form
+&lt;/p&gt;
+$$
+\left( x-aw \right) ^2+\left( y-bw \right) ^2=r^2w^2.
+$$&lt;p&gt;The center of the circle is $\left( x_0,y_0,w_0 \right) ^{\top}=\left( a,b,1 \right) ^{\top}$. The complex points $\left( x,y,w \right) ^{\top}=\left( 1,\pm i,0 \right) ^{\top}$ lie on every such circle, and therefore they lie in the intersection of any two circles. These two points lie on the line at infinity. &lt;em&gt;Euclidean geometry&lt;/em&gt; arises from projective geometry by singling out first a line at infinity and subsequently, two points called circular points lying on this line.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3D Euclidean geometry.&lt;/strong&gt; In homogeneous coordinates $\left( \mathrm{X},\mathrm{Y},\mathrm{Z},\mathrm{T} \right) ^{\top}$ all spheres intersect the plane at infinity in a curve with the equations: $\mathrm{X}^2+\mathrm{Y}^2+\mathrm{Z}^2=0;\mathrm{T}=0$. This a second-degree curve consisting only of complex points, which is known as &lt;em&gt;absolute conic&lt;/em&gt;. In general 3D Euclidean geometry is derived from projective geometry by singling out the plane at infinity and specifying the absolute conic lying in this plane.&lt;/p&gt;
+&lt;h2 id="12-camera-projections"&gt;1.2 Camera projections
+&lt;/h2&gt;&lt;p&gt;Camera projection is modeled by &lt;em&gt;central projection&lt;/em&gt; in which a ray from a point in space will intersect a specific plane, called image plane, dropping from three-dimensional world $\mathbb{P} ^3$ to a two-dimensional image $\mathbb{P}^2$ in projective geometry. Let the center of projection be the origin $\left( 0,0,0,1 \right) ^{\top}$. All points $\left( \mathrm{X},\mathrm{Y},\mathrm{Z},\mathrm{T} \right) ^{\top}$ for fixed $\mathrm{X},\mathrm{Y},\mathrm{Z}$, but varying $\mathrm{T}$ form a single ray passing through the center and projecting to the same point at the image. The linear mapping is represented by a $3\times 4$ matrix $\mathrm{P}=\left[ \mathrm{I}_{3\times 3}|\mathbf{0}_3 \right] $, and the projection process can be expressed by
+&lt;/p&gt;
+$$
+\left( \begin{array}{c}
+x\\
+y\\
+w\\
+\end{array} \right) =\mathrm{P}_{3\times 4}\left( \begin{array}{c}
+\mathrm{X}\\
+\mathrm{Y}\\
+\mathrm{Z}\\
+\mathrm{T}\\
+\end{array} \right).
+$$&lt;p&gt;Furthermore, if all points lie on a plane (we may choose $\mathrm{Z}=0$) then the mapping reduces to
+&lt;/p&gt;
+$$
+\left( \begin{array}{c}
+x\\
+y\\
+w\\
+\end{array} \right) =\mathrm{H}_{3\times 3}\left( \begin{array}{c}
+\mathrm{X}\\
+\mathrm{Y}\\
+\mathrm{T}\\
+\end{array} \right).
+$$&lt;p&gt;&lt;strong&gt;Cameras as points.&lt;/strong&gt; The set of all image points (image space $\mathbb{P} ^2$) can be represented by the set of rays through the camera center. Two images taken from the same point in space are projectively equivalent.
+&lt;img src="https://demo.stack.jimmycai.com/p/multiple-view-geometry-chapter-1-introduction/fig1_1.png"
+width="848"
+height="1140"
+srcset="https://demo.stack.jimmycai.com/p/multiple-view-geometry-chapter-1-introduction/fig1_1_hu_8522117514380ad9.png 480w, https://demo.stack.jimmycai.com/p/multiple-view-geometry-chapter-1-introduction/fig1_1_hu_a9ae1dcab71a409b.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="74"
+data-flex-basis="178px"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Calibrated cameras.&lt;/strong&gt; The absolute conic in the plane at infinity must project to a conic in the image. The resulting image curve is called the Image of the Absolute Conic, or IAC, defined as $\omega$. If the location of the IAC is known in an image, then we say that the camera is calibrated.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example 1.1. 3D reconstructions from paintings.&lt;/strong&gt; It is possible in many instances to reconstruct scenes from a single image. Typical techniques involve the analysis of features such as parallel lines and vanishing points to determine the affine structure of the scene.
+&lt;img src="https://demo.stack.jimmycai.com/p/multiple-view-geometry-chapter-1-introduction/fig1_2.png"
+width="919"
+height="773"
+srcset="https://demo.stack.jimmycai.com/p/multiple-view-geometry-chapter-1-introduction/fig1_2_hu_1cbbf59b4623cda3.png 480w, https://demo.stack.jimmycai.com/p/multiple-view-geometry-chapter-1-introduction/fig1_2_hu_3c3869adc4d36a0c.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="118"
+data-flex-basis="285px"
+&gt;&lt;/p&gt;
+&lt;h2 id="13-reconstruction-from-two-views"&gt;1.3 Reconstruction from two views
+&lt;/h2&gt;&lt;p&gt;Unless something is known about the calibration of the cameras, the ambiguity in the reconstruction is expressed by projective transformations. This ambiguity arises because it is possible to apply a projective transformation (represented by a $4\times 4$ matrix $\mathrm{H}$) to each point $\mathbf{X}_i$, and each camera matrix $\mathrm{P}_j$:
+&lt;/p&gt;
+$$
+\mathrm{P}_j\mathbf{X}_i=\left( \mathrm{P}_j\mathrm{H}^{-1} \right) \left( \mathrm{H}\mathbf{X}_i \right) .
+$$&lt;p&gt;The choice of $\mathrm{H}$ is essentially arbitrary, and we say that the reconstruction has a projective ambiguity, or is a &lt;em&gt;projective reconstruction&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;The basic tool in the reconstruction of point sets from two views is the fundamental matrix $\mathrm{F}$. A pair of matching points from two images of the same 3D point $\mathbf{x}_i \leftrightarrow \mathbf{x}_i^\prime$ must satisfy
+&lt;/p&gt;
+$$
+\mathbf{x}_i^{\prime\top}\mathrm{F}\mathbf{x}_i=0,
+$$&lt;p&gt;
+where $\mathrm{F}$ is a $3\times 3$ matrix of rank 2. A pair of camera matrices $\mathrm{P}$ and $\mathrm{P}^{\prime}$ uniquely determine a fundamental matrix $\mathrm{F}$, and vice verse, up to a 3D projective ambiguity. Thus, the fundamental matrix encapsulates the complete projective geometry of the pair of cameras, and is unchanged by projective transformation of 3D. The fundamental-matrix method for reconstructing the scene is very simple, consisting of the following steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Given several point correspondences $\mathbf{x}_i \leftrightarrow \mathbf{x}_i^\prime$ across two views, form linear equations in the entries of $\mathrm{F}$ based on $\mathbf{x}_i^{\prime\top}\mathrm{F}\mathbf{x}_i=0$.&lt;/li&gt;
+&lt;li&gt;Find $\mathrm{F}$ as the solution to a set of linear equations.&lt;/li&gt;
+&lt;li&gt;Compute a pair of camera matrices from $\mathrm{F}$.&lt;/li&gt;
+&lt;li&gt;Given the two camera matrices and the corresponding image point pairs, find the 3D point that projects to the given image points, which is called &lt;em&gt;triangulation&lt;/em&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="14-three-view-geometry"&gt;1.4 Three-view geometry
+&lt;/h2&gt;&lt;p&gt;Whereas for two views, the basic algebraic entity is the fundamental matrix, for three views this role is played by the trifocal tensor $\mathcal{T}$, which is a $3\times 3\times 3$ array of numbers. The trifocal tensor is determined by the three camera matrices, and vice verse, up to a 3D projective ambiguity. We consider a correspondence $\mathbf{x} \leftrightarrow \mathbf{l}^{\prime} \leftrightarrow \mathbf{l}^{\prime\prime}$ between a point $\mathbf{x}$ in one image and two lines $\mathbf{l}^{\prime}$ and $\mathbf{l}^{\prime\prime}$ in the other two images. They are related by the trifocal tensor relationship:
+&lt;/p&gt;
+$$
+\sum_{ijk}{x^il_{j}^{\prime}l_{k}^{\prime\prime}\mathcal{T} _{i}^{jk}}=0.
+$$&lt;p&gt;The 27 elements of the tensor are not independent, however, but are related by a set of so called internal constraints. These constraints are quite complicated, but tensors satisfying the constraints can be computed in various ways. The fundamental matrix also satisfies an internal constraint but a relatively simple one: the elements obey $\det  \mathrm{F}=0$.&lt;/p&gt;
+&lt;h2 id="15-four-view-geometry-and-n-view-reconstruction"&gt;1.5 Four-view geometry and n-view reconstruction
+&lt;/h2&gt;&lt;p&gt;This method is seldom used because of the relative difficulty of computing a quadrifocal tensor that obey its internal constraints. Nevertheless, it does provide a non-iterative method for computing a projective reconstruction based on four views. The tensor method does not extend to more than four views, however, and so reconstruction from more than four views becomes more difficult.&lt;/p&gt;
+&lt;h2 id="16-transfer"&gt;1.6 Transfer
+&lt;/h2&gt;&lt;p&gt;Another useful application of projective geometry is that of transfer: given the position of a point in one (or more) image(s), determine where it will appear in all other images of the set. This may be computed by the following steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Compute the camera matrices of the three views $\mathrm{P},\mathrm{P}^{\prime},\mathrm{P}^{\prime\prime}$ from other point correspondences $\mathbf{x} \leftrightarrow \mathbf{x}_i^\prime \leftrightarrow \mathbf{x}_i^{\prime\prime}$.&lt;/li&gt;
+&lt;li&gt;Triangulate the 3D point $\mathbf{X}$ from $\mathbf{x}$ and $\mathbf{x}^{\prime}$ using $\mathrm{P}$ and $\mathrm{P}^{\prime}$.&lt;/li&gt;
+&lt;li&gt;Project the 3D point into the third view as $\mathbf{x}^{\prime\prime}=\mathrm{P}^{\prime\prime}\mathbf{X}$.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;An alternative procedure is to use the multi-view tensors (the fundamental matrix and trifocal tensor) to transfer the point directly without an explicit 3D reconstruction.&lt;/p&gt;
+&lt;h2 id="17-euclidean-reconstruction"&gt;1.7 Euclidean reconstruction
+&lt;/h2&gt;&lt;p&gt;So far we have considered the reconstruction of a scene, or transfer, for images taken with a set of uncalibrated cameras. In order to obtain a reconstruction of the model in which objects have their correct (Euclidean) shape, it is necessary to determine the calibration of the cameras. Determining the Euclidean structure of the world is equivalent to specifying the plane at infinity and the absolute conic.
+&lt;img src="https://demo.stack.jimmycai.com/p/multiple-view-geometry-chapter-1-introduction/fig1_4.png"
+width="929"
+height="246"
+srcset="https://demo.stack.jimmycai.com/p/multiple-view-geometry-chapter-1-introduction/fig1_4_hu_5b2cfaeb40346b41.png 480w, https://demo.stack.jimmycai.com/p/multiple-view-geometry-chapter-1-introduction/fig1_4_hu_332c548eb2b1e7e7.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="377"
+data-flex-basis="906px"
+&gt;&lt;/p&gt;
+&lt;p&gt;By definition, the IAC is known in each of the images. The back-projection of each $\omega_i$ is a cone in space, and the absolute conic must lie in the intersection of all the cones. Two cones in general intersect in a fourth-degree curve, but given that they must intersect in a conic, this curve must split into two conics. Thus, reconstruction of the absolute conic from two images is not unique – there are two possible solutions in general. However, from three or more images, the intersection of the cones is unique in general. Thus the absolute conic is determined and with it the Euclidean structure of the scene.&lt;/p&gt;
+&lt;p&gt;If the Euclidean structure of the scene is known, then so is the position of the absolute conic. In this case we may project it back into each of the images, producing the IAC in each image, and hence calibrating the cameras. &lt;strong&gt;Thus knowledge of the camera calibration is equivalent to being able to determine the Euclidean structure of the scene.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="18-auto-calibration"&gt;1.8 Auto-calibration
+&lt;/h2&gt;&lt;p&gt;Suppose that it is known that the calibration is the same for each of the cameras used in reconstructing a scene from an image sequence. In all these image coordinate systems, the IAC is the same, but just where it is located is unknown. From this knowledge, we wish to compute the position of the absolute conic. One way to find the absolute conic is to hypothesize the position of the IAC in one image; its position in the other images will be the same. The backprojection of each of the conics will be a cone in space. If the three cones all meet in a single conic, then this must be a possible solution for the position of the absolute conic. The key point is knowing the plane at infinity. However, the identification of the plane at infinity is more difficult.&lt;/p&gt;</description></item></channel></rss>
