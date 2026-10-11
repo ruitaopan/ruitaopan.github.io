@@ -8,6 +8,7 @@ menu:
         weight: 2
         params:
             icon: academic
+comments: false
 ---
 
 ## Education
