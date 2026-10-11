@@ -9,8 +9,6 @@ weight: 2
 comments: true
 ---
 
-## Video
-
 **Date**: 2025-06<br>
 **Description**: The seconde performing on stage. More comfortable and mature.
 {{< bilibili "BV141zHBzEBx" >}}
